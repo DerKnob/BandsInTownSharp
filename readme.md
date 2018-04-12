@@ -1,9 +1,13 @@
 # BandsInTownSharp
 
-A simple implementation of the Bands In Town v.3 API.
-The response is JSON. 
+A simple implementation of the BandsInTown (BIT) v.3 API.
 
-Unfortunately the Bands In Town team removed some functions from the v.3 API, such as requesting events by location.
+Some information
+- The BIT response is in the JSON format
+- Solution is build with .Net 4.6.1
+- I included a test progam with a simple UI
+
+Unfortunately, the BandsInTown team removed some functions from the v.3 API, such as requesting events by location.
 I'm in touch with the support and they have plans to add this in future again.
 
 
@@ -24,8 +28,11 @@ Included projects:
 
 
 ## How to test
-Checkout the project and have a look **into MainWindow.xaml.cs** in the **BandsInTownTest** project.
-Here you will find the line with the **MyBitAPIKey**. Please replace with your key.
+### Checkout
+Checkout the project with git. Then open then Visual Studio solution. Go to **Extras->NuGet Package Manager->Package Manager Console** to open the **Package Manager Console**. Then type the command *Update-Package* to update the dependencies. If you want to setup it manually, have a look at the **3rd Party Libs** list. Now the build should work.
+
+### Setup the BIT API Key
+Once setup, have a look into the **MainWindow.xaml.cs** file inside the **BandsInTownTest** project. Here you will find the line with the **MyBitAPIKey**. Please replace with your key.
 
 ```C#
 private BitClient bitClient = new BitClient("MyBitAPIKey");
