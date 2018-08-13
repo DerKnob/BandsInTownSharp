@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/bltsg5mkb0ao1ep7/branch/master?svg=true)](https://ci.appveyor.com/project/DerKnob/bandsintownsharp/branch/master)
+
 # BandsInTownSharp
 
 A simple implementation of the BandsInTown (BIT) v.3 API.
