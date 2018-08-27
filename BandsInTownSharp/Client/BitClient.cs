@@ -8,7 +8,7 @@ using System.Text;
 
 namespace BandsInTownSharp.Client
 {
-    public partial class BitClient
+    public class BitClient
     {
         private const string restUrl = "https://rest.bandsintown.com";
 
