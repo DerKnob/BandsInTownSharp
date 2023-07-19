@@ -6,7 +6,7 @@ A simple implementation of the BandsInTown (BIT) v.3 API.
 
 Some information
 - The BIT response is in the JSON format
-- Solution is build with .Net 4.6.1
+- Solution is build with .Net 4.8
 - I included a test progam with a simple UI
 
 Unfortunately, the BandsInTown team removed some functions from the v.3 API, such as requesting events by location.
